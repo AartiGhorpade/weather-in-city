@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(237, 219, 252);
+}
+
+.card {
+  background-image: url('https://images.pexels.com/photos/2418664/pexels-photo-2418664.jpeg?cs=srgb&dl=pexels-greg-2418664.jpg&fm=jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 4rem;
+  margin-top: 4rem;
+  max-width: 70%;
+  max-height: 500px;
+  height: 500px;
+}
+
+input[type='search']::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 14px;
+  width: 14px;
+  display: block;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAn0lEQVR42u3UMQrDMBBEUZ9WfQqDmm22EaTyjRMHAlM5K+Y7lb0wnUZPIKHlnutOa+25Z4D++MRBX98MD1V/trSppLKHqj9TTBWKcoUqffbUcbBBEhTjBOV4ja4l4OIAZThEOV6jHO8ARXD+gPPvKMABinGOrnu6gTNUawrcQKNCAQ7QeTxORzle3+sDfjJpPCqhJh7GixZq4rHcc9l5A9qZ+WeBhgEuAAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-size: 14px;
+}
+
+.city-title {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.main-temp {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.min-max-temp {
+  font-size: 16px;
+  font-weight: bold;
+}
+.not-found {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+@media (max-width: 575.98px) {
+  .card {
+    padding: 2rem;
+  }
+  .city-title {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .card {
+    width: 50%;
+  }
+
+  input[type='search'] {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    width: 50%;
+  }
+
+  input[type='search'] {
+    width: 70%;
+    margin: auto;
+  }
+}
